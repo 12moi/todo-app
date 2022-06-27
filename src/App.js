@@ -10,7 +10,7 @@ function App() {
     <div className='App'>
      <header><h3> Eng. Ann Wangui & Eng. Moi Shadrack Todo List </h3></header>
      <Form inputText={inputText} todos={todos} setTodos={setTodos} setInputText={setInputText}/>
-     <TodoList todos={todos} inputText={inputText}/>
+     <TodoList setTodos={setTodos} todos={todos} inputText={inputText}/>
     </div>
   )
 }
