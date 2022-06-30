@@ -11,6 +11,9 @@ function App() {
      <header><h3> Eng. Ann Wangui & Eng. Moi Shadrack Todo List </h3></header>
      <Form inputText={inputText} todos={todos} setTodos={setTodos} setInputText={setInputText}/>
      <TodoList setTodos={setTodos} todos={todos} inputText={inputText}/>
+     <div className='footer'>
+      {/* All Right Reserved. 2022 */}
+     </div>
     </div>
   )
 }

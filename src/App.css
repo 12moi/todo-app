@@ -80,7 +80,11 @@
   .todo-item {
     padding: 0rem 0.5rem;
   }
+  .footer{
+  text-align: center;
   
+  margin-bottom: 0%;
+  }
   .fa-trash,
   .fa-check {
     pointer-events: none;
